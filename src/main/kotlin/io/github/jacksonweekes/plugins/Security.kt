@@ -1,4 +1,4 @@
-package com.example.plugins
+package io.github.jacksonweekes.plugins
 
 import io.ktor.server.auth.*
 import io.ktor.util.*

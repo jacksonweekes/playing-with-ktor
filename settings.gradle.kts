@@ -1,1 +1,1 @@
-rootProject.name = "com.example.ktor-sample"
+rootProject.name = "io.github.jacksonweekes.playing-with-ktor"

@@ -1,4 +1,4 @@
-package com.example
+package io.github.jacksonweekes
 
 import io.ktor.server.routing.*
 import io.ktor.http.*
@@ -13,7 +13,7 @@ import io.ktor.client.request.*
 import io.ktor.client.statement.*
 import kotlin.test.*
 import io.ktor.server.testing.*
-import com.example.plugins.*
+import io.github.jacksonweekes.plugins.configureRouting
 
 class ApplicationTest {
     @Test

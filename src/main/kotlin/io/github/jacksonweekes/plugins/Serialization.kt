@@ -1,4 +1,4 @@
-package com.example.plugins
+package io.github.jacksonweekes.plugins
 
 import io.ktor.serialization.kotlinx.json.*
 import io.ktor.server.plugins.*

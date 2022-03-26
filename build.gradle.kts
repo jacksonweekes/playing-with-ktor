@@ -8,7 +8,7 @@ plugins {
                 id("org.jetbrains.kotlin.plugin.serialization") version "1.6.10"
 }
 
-group = "com.example"
+group = "io.github.jacksonweekes"
 version = "0.0.1"
 application {
     mainClass.set("com.example.ApplicationKt")
