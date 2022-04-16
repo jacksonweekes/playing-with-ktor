@@ -1,5 +1,6 @@
 package io.github.jacksonweekes.plugins
 
+import io.github.jacksonweekes.quotes.addQuotesController
 import io.ktor.server.routing.*
 import io.ktor.http.*
 import io.ktor.server.application.*
@@ -12,5 +13,7 @@ fun Application.configureRouting() {
         get("/") {
             call.respondText("Hello World!")
         }
+
+        addQuotesController()
     }
 }
